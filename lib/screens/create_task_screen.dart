@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class StatisticsScreen extends StatelessWidget {
+class CreateTaskScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Statistics',
+        'CreateTask',
         style: TextStyle(fontSize: 24),
       ),
     );
