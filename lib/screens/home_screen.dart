@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'task_list_screen.dart';
-import 'statistics_screen.dart';
-import 'settings_screen.dart';
+import 'homepage_screen.dart';
+import 'create_task_screen.dart';
+import 'notifications_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -11,9 +11,9 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int _currentIndex = 0;
   final List<Widget> _children = [
-    TaskListScreen(),
-    StatisticsScreen(),
-    SettingsScreen(),
+    HomepageScreen(),
+    CreateTaskScreen(),
+    NotificationsScreen(),
   ];
 
   void onTabTapped(int index) {
@@ -35,15 +35,15 @@ class _HomeScreenState extends State<HomeScreen> {
         items: [
           BottomNavigationBarItem(
             icon: new Icon(Icons.list),
-            label: 'Tasks',
+            label: 'Homepage',
           ),
           BottomNavigationBarItem(
             icon: new Icon(Icons.bar_chart),
-            label: 'Statistics',
+            label: 'CreateTask',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
-            label: 'Settings',
+            label: 'Notifications',
           ),
         ],
       ),
