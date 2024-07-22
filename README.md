@@ -7,6 +7,9 @@ By providing features such as task categorization, deadline reminders, and progr
 
 
 Cachero, Angelica Marie D.
+
 Mancilla, Jasmine Joyce V.
+
 Samson, Karlo Renz V.
+
 BSIT-BA 3307
