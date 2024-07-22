@@ -1,4 +1,4 @@
-# Final_Peoject_AppDev
+# Final_Project_AppDev
 
 Task Master App: A Personal Task Management App
 
