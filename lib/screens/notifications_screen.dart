@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class SettingsScreen extends StatelessWidget {
+class NotificationsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'Settings',
+        'Notifications',
         style: TextStyle(fontSize: 24),
       ),
     );
